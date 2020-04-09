@@ -200,3 +200,56 @@
   padding: 0 !important;
 }
 /*======END==========*/
+/*======= START news==========*/
+.news .container h1 {
+  font-family: sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: 800;
+  text-align: center;
+}
+.news .card a {
+  color: teal;
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: solid 3px tomato;
+  text-decoration: none;
+}
+
+.news .card .card-title {
+  color: teal;
+  font-size: 30px;
+  padding-left: 10px;
+  border-left: solid;
+}
+.news .card {
+  margin-bottom: 25px;
+}
+/*=========END===========*/
+/*========START contact-us========*/
+.contact-us {
+  text-align: center;
+  padding: 50px 0px;
+  background-color: teal;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.contact-us p {
+  font-weight: 800;
+}
+.contact-us a {
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding: 5px 30px;
+  border-radius: 15px;
+  border: white solid;
+  transition: all 0.8s;
+}
+.contact-us a:hover {
+  color: tomato;
+  border: white solid;
+  border-radius: 5px;
+  text-decoration: none;
+}
+/*========End==========*/
