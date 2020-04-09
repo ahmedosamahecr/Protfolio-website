@@ -122,3 +122,81 @@
   color: #6f6a6abd;
 }
 /*=====END icone =====*/
+/*======START Overview =========*/
+.overview {
+  width: 100%;
+  padding: 45px;
+}
+.overview div h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.overview p {
+  width: 70%;
+  margin: 0 auto 40px;
+  font-size: 1.3rem;
+  color: #3c3a3acf;
+  line-height: 2;
+}
+.overview h4 {
+  color: #3c3a3acf;
+  font-size: 1.7rem;
+  letter-spacing: 10px;
+  line-height: 2;
+}
+.overview button {
+  background-color: tomato;
+  padding: 5px 40px;
+  font-size: 1.8rem;
+  border: 1px solid tomato;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 7px;
+  box-shadow: 0 0 5px #ff0808;
+}
+/*======END========*/
+/*======START Works =========*/
+.works div h1 {
+  font-weight: 900;
+}
+.works div p {
+  font-size: 1rem;
+  color: #3c3a3acf;
+  line-height: 2;
+}
+.works {
+  width: 100%;
+  padding: 45px 0px 0px 0px;
+}
+.works div ul {
+  margin-bottom: 48px;
+}
+.works div ul li {
+  color: teal;
+  margin-left: 25px;
+  margin-bottom: 15px;
+  padding: 5px 0px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border: teal 2px solid;
+  box-shadow: 1px 1px 5px teal, -1px -1px 5px teal;
+}
+.works div ul li.active,
+.works div ul li:hover {
+  color: #fff;
+  background-color: tomato;
+  border: tomato 2px solid;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px tomato, -1px -1px 5px tomato;
+}
+.works .ab-imgs div img {
+  width: 100%;
+  border: #fff solid 1px;
+}
+.works .ab-row .row {
+  margin: 0;
+}
+.works .ab-row .row .col-sm {
+  padding: 0 !important;
+}
+/*======END==========*/
