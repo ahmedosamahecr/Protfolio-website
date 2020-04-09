@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+/*======START navbar======*/
+.navbar {
+  background-color: teal;
+  margin: auto;
+  width: 80%;
+  border-radius: 0px 0px 30px 30px;
+}
+.navbar-brand span {
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-brand span:first-child {
+  color: #fff;
+  font-weight: bold;
+}
+.navbar-brand span:last-child,
+.navbar-light .navbar-nav .active {
+  color: #151715b0 !important;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-left: 15px;
+  color: #fff !important;
+  padding: 10px;
+  font-weight: 600;
+  transition: all 0.7s ease-in-out;
+  border-bottom: solid #fff 2px;
+  border-radius: 5px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  border-top: solid #fff 2px;
+  border-right: solid #fff 2px;
+  border-left: solid #fff 2px;
+  border-bottom: none;
+  border-radius: 5px;
+}
+/*======END navbar======*/
+/*=====START slider =====*/
+.slider {
+  background-color: #333;
+}
+.slider .carousel-inner .cover-slid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.slider .carousel-item {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.slider .caro1 {
+  background-image: url("../imgs/sl2.jpg");
+}
+.slider .caro2 {
+  background-image: url("../imgs/sl1.jpg");
+}
+.slider .caro3 {
+  background-image: url("../imgs/sl3.jpg");
+}
+.slider .carousel-indicators li {
+  height: 7px;
+}
+.slider .carousel-inner .content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.slider .carousel-inner h1 {
+  position: absolute;
+  color: #fff;
+  max-width: 800px;
+  line-height: initial;
+  text-align: center;
+  font-size: 3rem;
+  z-index: 3;
+}
+.slider .carousel-inner h1 span {
+  background-color: tomato;
+  color: #fff;
+  border-radius: 15px;
+  padding: 0px 16px;
+  box-shadow: 0 0 7px tomato;
+}
+@media (max-width: 374px) {
+  .slider .carousel-inner h1 span {
+    font-size: 2.5rem;
+  }
+}
+/*=====END slider =====*/
+/*=====START icone =====*/
+.lcons div i {
+  font-size: 2rem;
+  background-color: tomato;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  margin-bottom: 7px;
+  line-height: 100%;
+}
+.lcons div h3 {
+  color: teal;
+  font-family: cursive;
+}
+.lcons div p {
+  color: #6f6a6abd;
+}
+/*=====END icone =====*/
