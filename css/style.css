@@ -253,3 +253,77 @@
   text-decoration: none;
 }
 /*========End==========*/
+/*======START araa========*/
+.araa {
+  background-image: url("../imgs/sl3.jpg");
+  background-size: 100% 100%;
+  height: 80vh;
+  position: relative;
+}
+.araa .cover-slid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.araa .container {
+  position: relative;
+  z-index: 5;
+}
+
+.araa .carousel-inner .carousel-caption {
+  top: 40%;
+  margin-top: -150px;
+}
+
+.araa .carousel-inner .carousel-caption img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.araa .carousel-inner .carousel-caption h5 {
+  font-size: 1.7rem;
+}
+.araa .carousel-inner .carousel-caption p {
+  font-size: 1.5rem;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 1;
+}
+.araa .caro-cont {
+  background-color: #000;
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  padding: 15px;
+}
+.araa .caro-cont:hover {
+  background-color: tomato;
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  padding: 15px;
+}
+.araa .carousel-indicators li {
+  height: 7px;
+}
+/*========END============*/
+/*======START .contact-us2=======*/
+.contact-us2 {
+  text-align: center;
+  padding: 50px 0px;
+  background-color: teal;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.contact-us2 {
+  background-color: tomato;
+  padding: 65px 0px;
+}
+.contact-us2 p {
+  font-weight: 400;
+}
+/*=====END========*/
